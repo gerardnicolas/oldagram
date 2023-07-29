@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.logo {
+    width: 127px;
+}
+
+.current-user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 16px 15px;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.posts{
+    width: 375px;
+    margin: 0 auto 10 auto;
+    background-color: #FFFFFF;
+}
+
+.posts .post-title{
+    display: flex;
+    padding: 10px;    
+}
+
+.posts .post-title .user-details {
+    margin-left: 10px;
+}
+
+.user-post-image {
+    width: 375px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.post-icons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.post-icons .icons {
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+}
+
+#like:hover,
+#comment:hover,
+#direct-message:hover,
+.post-likes:hover,
+.post-info .username:hover,
+.avatar:hover,
+.name:hover {
+    cursor: pointer;
+}
+
+.post-likes{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.post-info{
+    padding: 10px;
+    display: flex;
+}
+
+.post-info .username {
+    font-weight: bold;
+}
+
+.post-info .caption {
+    margin-left: 5px;
+}
