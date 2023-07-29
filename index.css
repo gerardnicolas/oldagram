@@ -57,7 +57,7 @@ p {
 .user-post-image {
     width: 375px;
     height: 375px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .post-icons {
